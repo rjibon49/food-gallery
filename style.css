@@ -1,0 +1,78 @@
+body{
+    font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+}
+.container{
+    display: flex;   
+}
+.row{
+    padding-top: 50px;
+    width: 50%;
+}
+p{
+    font-size: 15px;
+    margin: 0;
+    padding:0;
+}
+
+/* top section ---------------------------------------------- */
+
+#top{
+    background-image: url(./image/7.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.title-color{
+    color: blueviolet;
+}
+.head-title{
+    padding: 20px 0 20px 50px;
+    font-size: 30px;
+    line-height: 10px;
+}
+.head-description{
+    padding: 20px 0 20px 50px;
+}
+.head-sort{
+    padding: 20px 0 20px 50px;
+}
+.order-now{
+    padding: 20px 0 20px 50px;
+    margin-top:25px;
+}
+.order-now a{
+    background-color: purple;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.order-now a:hover{
+    color: white;
+    background-color: black;
+}
+.head-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+}
+
+/* second section ---------------------------------------------- */
+
+#second{
+    background-image: url(./image/Frame-57.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#second .row{
+    padding: 50px;
+}
+#second .head-img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
