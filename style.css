@@ -76,3 +76,10 @@ p{
     margin-right: auto;
     width: 50%;
 }
+
+/* Third section ---------------------------------------------- */
+
+#third .row{
+    padding: 25px;
+    width: 33.33%;
+}
