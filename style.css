@@ -80,14 +80,20 @@ p{
 /* Blog section ---------------------------------------------- */
 
 #blog{
-    min-height: 700px;
     background-color: lightgray;
+    padding: 50px 0;
 }
 #blog .blog-head{
     text-align: center;
     padding: 0 200px;
+    padding-top: 50px;
     margin-bottom: 50px;
 }
+.blog-head .head-title{
+    padding: 0;
+    margin: 0;
+}
+
 #blog .container{
     padding: 0 50px;
 }
@@ -127,9 +133,10 @@ p{
 #option-a .container{
     max-width: 80%;
     background-color:whitesmoke;
-    position: absolute;
+    position: relative;
     left: 10%;
     right: 10%;
+    top: 10%;
     border-radius: 10px;
     box-shadow: 6px 8px 5px black ;
 }
@@ -142,4 +149,30 @@ p{
 .option-title{
     font-size: 40px;
     line-height: 0;
+}
+
+/* Footer section ---------------------------------------------- */
+
+#footer-part .container{
+    background-color: dimgray;
+    min-height: 200px;
+}
+.footer-row{
+    text-align: center;
+    margin: 0 auto;
+}
+.footer-title{
+    padding-top: 35px;
+    font-size: 40px;
+    line-height: 0;
+}
+.co{
+    color: seagreen;
+}
+.ca{
+    color: salmon;
+}
+.footer-description{
+    font-size: 13px;
+    font-weight: 700;
 }
