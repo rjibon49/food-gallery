@@ -77,9 +77,69 @@ p{
     width: 50%;
 }
 
-/* Third section ---------------------------------------------- */
+/* Blog section ---------------------------------------------- */
 
-#third .row{
-    padding: 25px;
+#blog{
+    min-height: 700px;
+    background-color: lightgray;
+}
+#blog .blog-head{
+    text-align: center;
+    padding: 0 200px;
+    margin-bottom: 50px;
+}
+#blog .container{
+    padding: 0 50px;
+}
+.blog-row{
+    background-color: whitesmoke;
+    border-radius: 15px;
+    box-shadow: 6px 8px 5px black ;
     width: 33.33%;
+    padding: 15px;
+    margin: 0px 30px;
+}
+.blog-row img{
+    width: 100%;
+    height: auto;
+}
+.recipie-description{
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.blog-row a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+}
+.blog-row a:hover{
+    background-color: black;
+    color: green;
+}
+/* Option section ---------------------------------------------- */
+
+#option-a{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+#option-a .container{
+    max-width: 80%;
+    background-color:whitesmoke;
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    border-radius: 10px;
+    box-shadow: 6px 8px 5px black ;
+}
+.option{
+    width: 33.33%;
+    padding-left: 75px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.option-title{
+    font-size: 40px;
+    line-height: 0;
 }
